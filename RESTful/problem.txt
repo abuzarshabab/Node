@@ -1,0 +1,28 @@
+1.  __proto__ vs Prototype :         D:\Projects\CleanCode\classFunction.js
+2.  Global / window :                https://docs.google.com/document/d/1Yf5SmkSE-i7Mnl6tsaAGCMt7_g0PYFvSgD-t-BvBN1M/edit#heading=h.xfoexfb0lm7f
+3.  Why call stack full :            D:\Projects\CleanCode\stackOverflow.js
+4.  Can we define another method inside the method : D:\Projects\CleanCode\classFunction.js
+5.  Prevent Default and linking not working. : D:\Projects\13-Advanced-DOM-Bankist\starter\script.js
+6. Prototype __proto__
+
+/* Mongo Db Errors */
+
+ var docs = [];
+
+for (let i = 1 ; i<=100 ;i++){
+   obj = {
+       index : NumberInt(i)
+       };
+   
+   docs.push(obj)
+}
+console.log(docs):
+
+db.cursor.insertMany(docs)
+
+
+
+db.person.find({"name": {"$gt" : "N"}})
+
+
+// Set NODE_ENV = Production not working

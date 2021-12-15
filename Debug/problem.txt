@@ -1,0 +1,5 @@
+set DEBUG=app:startup
+set DEBUG=app:startup,app:DB,
+set DEBUG=app:*
+set $DEBUG=app:db nodemon 
+set DEBUG=app:db nodemon index.js
