@@ -25,7 +25,7 @@ async function getUser(id) {
   */
 
 // Type 2
-async function getUser(id, callback) {
+function getUser(id, callback) {
     setTimeout(() => {
         console.log('Reading a user from a database...');
         callback({ id, gitHubUsername: 'mosh' });
